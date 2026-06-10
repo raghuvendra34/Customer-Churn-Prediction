@@ -1,3 +1,4 @@
+streamlit
 numpy
 pandas
 matplotlib
@@ -6,3 +7,4 @@ scikit-learn
 imbalanced-learn
 xgboost
 jupyter
+xgboost
