@@ -4,8 +4,8 @@ Replicates Customer_Churn_Prediction.ipynb preprocessing exactly, with one
 correction: the final Random Forest is fitted on the SMOTE-resampled training
 data (X_train_smote, y_train_smote) — the data the benchmark cross-validation
 was run on — instead of the raw imbalanced split. Effect on the held-out test
-set: accuracy 0.795 -> 0.772, churn-class recall 0.47 -> 0.57 (the model now
-catches ~57% of churners instead of under half).
+set: accuracy 0.795 -> 0.782, churn-class recall 0.47 -> 0.58 (the model now
+catches ~58% of churners instead of under half).
 
 Run:  python train_model.py
 """
